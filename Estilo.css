@@ -1,0 +1,205 @@
+.conteiner{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    }
+    .C1{
+        display: flex;
+        justify-content: center;
+        color: blue;
+        background-color: orange;
+    }
+   li{
+    list-style: none;
+   }
+   .C2{
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: center;
+    color: blue;
+   }
+   .C3{
+    display: flex;
+    justify-content: space-evenly;
+flex-direction: column;
+}
+ .C5{
+    display: flex;
+    justify-content: space-around;
+    padding:25px 25px;
+    background-color: orange;
+    
+}
+    .C5 :hover{
+    display: flex;
+    border-radius: 15px;
+    color: red;
+   }
+   .C7{
+    display: flex;
+    justify-content: center;
+    padding:50px 50px;
+   }
+   .Fundo{
+    background-color: orange;
+    padding: 50px 50px;
+}
+   .navegação li{
+    background-color: black;
+    color: red;
+    
+    border-radius: 15px;
+   }
+.C8{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: end;
+}
+footer{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    color: orange;
+    justify-content: space-around;
+    }
+    .C13{
+display: flex;
+flex-direction: row;
+    }
+
+.C10{
+    display: flex;
+    justify-content: space-around;
+}
+.C11{
+    text-decoration: solid;
+    color: blue;
+}
+.C12{
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    }
+    .C14{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+
+   ul.menu,
+   .menu li,
+   .menu a {
+       margin: 0;
+       padding: 0;
+       list-style: none;
+       text-decoration: none;
+   }
+
+   ul.menu ul {
+       position: absolute;
+       display: none;
+       box-shadow: 3px 3px 2px #333;
+   }
+
+   /* Configurações nivel 1*/
+   ul.menu {
+       float: left;
+       font-family: Verdana, Geneva, sans-serif;
+       font-size: 15px;
+       border-radius: 5px;
+       padding: 0 5px;
+   }
+
+   .menu li {
+       float: left;
+       width: auto;
+       position: relative;
+   }
+
+   .menu li a {
+       display: block;
+       padding: 0 20px;
+       line-height: 45px;
+       height: 45px;
+       float: left;
+       transition: all 0.1s linear;
+   }
+
+   
+   .menu li:hover>ul.submenu-1 {
+       display: block;
+       top: 45px;
+       left: 0;
+       padding: 5px;
+       width: 200px;
+       border-radius: 0 0 5px 5px;
+   }
+
+   .menu ul.submenu-1 a {
+       width: 160px;
+       padding: 0 20px;
+       border-radius: 5px;
+   }
+
+   
+   .menu li:hover>ul.submenu-2 {
+       display: block;
+       top: 0;
+       left: 195px;
+       padding: 5px;
+       width: 200px;
+       border-radius: 0 5px 5px 5px;
+   }
+
+   .menu ul.submenu-2 a {
+       width: 160px;
+       padding: 0 20px;
+       border-radius: 5px;
+   }
+
+   
+   .menu li:hover>ul.submenu-3 {
+       display: block;
+       top: 0;
+       left: 195px;
+       padding: 5px;
+       width: 200px;
+       border-radius: 0 5px 5px 5px;
+   }
+
+   .menu ul.submenu-3 a {
+       width: 160px;
+       padding: 0 20px;
+       border-radius: 5px;
+   }
+
+
+   
+   .menu {
+       background: #CCC;
+   }
+
+   .menu a {
+       color: #000;
+   }
+
+   .menu li:hover>a {
+       background: #999;
+       color: #fff;
+   }
+
+  
+   .submenu-1 {
+       background: #999;
+   }
+
+   .submenu-1 a {
+       color: #fff;
+   }
+
+   .submenu-1 li:hover>a {
+       background: #666;
+   }
